@@ -1,8 +1,6 @@
-package org.example;
-
 public enum PerfilLeitor {
     COMUM(3, 1.0),
-    PREMIUM(7, 1.5);
+    PREMIUM(7, 1.5); // 50% a mais de prazo (multiplicador 1.5)
 
     private final int limiteItens;
     private final double multiplicadorPrazo;
